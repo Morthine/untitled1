@@ -10,6 +10,7 @@ import VipContainer from './components/tabbar/VipContainer'
 
 const router = new VueRouter({
   routes: [
+    {path: '/' ,component: HomeContainer},
     {path: '/search' ,component: SearchContainer},
     {path: '/home' ,component: HomeContainer},
     {path: '/vip' ,component: VipContainer},
