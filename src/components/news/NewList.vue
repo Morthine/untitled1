@@ -59,7 +59,7 @@
     },
     methods:{
       getNewsList(){
-        this.$http.get('')
+        this.$http.get('http://vue.studtit.io')
       }
     }
 
