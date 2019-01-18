@@ -52,7 +52,17 @@
 
 <script>
   export default {
-    name: 'NewList'
+    data(){
+      return{
+
+      }
+    },
+    methods:{
+      getNewsList(){
+        this.$http.get('')
+      }
+    }
+
   }
 </script>
 
